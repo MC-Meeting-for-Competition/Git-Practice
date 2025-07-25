@@ -4,6 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   console.log("1234");
+  console.log("hehe");
   return res.json({ message: "Hello World!" });
 });
 
